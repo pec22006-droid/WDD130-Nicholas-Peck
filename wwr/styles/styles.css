@@ -188,6 +188,20 @@ main section img {
     box-shadow: 5px 5px 10px #00f;
 }
 
+#equipment-title{
+    justify-self: center;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+}
+.items p{
+    margin: 30px;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
