@@ -181,6 +181,76 @@ iframe{
 
 /*
 ****************************************************************************
+** Nether
+****************************************************************************
+*/
+
+.F3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.treasure-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.treasure-grid > img, .treasure-grid div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bridge-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60% 60%;
+    margin-bottom: 10%;
+}
+.bridge-grid img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.housing-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.housing-grid img, .housing-grid div{
+    width: 80%;
+    margin: 0 auto;
+}
+.housing-grid div, .housing-grid p{
+    padding-top: 50px;
+}
+.stables-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.stables-grid img, .stables-grid div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.routes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.routes iframe{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.fortress-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fortress-grid img{
+    width: 80%;
+    margin: auto auto;
+}
+
+/*
+****************************************************************************
 ** Hovering?? not sure how general this is gonna be, but it is modular    **
 ****************************************************************************
 */
